@@ -38,7 +38,7 @@ const FullScreenNav = () => {
                 </svg>
                 </div>
                 <Link to='/'>
-                    <img className='h-20 hover:cursor-pointer w-20' src="../../../public/cross.png" alt="" />
+                    <img className='h-20 hover:cursor-pointer w-20' src="/cross.png" alt="" />
                 </Link>
 
             </div>

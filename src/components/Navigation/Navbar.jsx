@@ -24,7 +24,7 @@ const Navbar = () => {
                 <div className="absolute inset-0 bg-[#9cca10] -translate-y-full group-hover:translate-y-0 transition-all duration-300"></div>
 
                 {/* Your text / content on top */}
-                <img className="h-8 w-8 relative z-10 ml-18 lg:ml-47" src='../../../public/menu.png'/>
+                <img className="h-8 w-8 relative z-10 ml-18 lg:ml-47" src='/menu.png'/>
             </Link>
 
         </div>
