@@ -38,7 +38,7 @@ const Projects = () => {
     
   })
 
-  const Projects = [
+  const projects = [
     {
       image1: 'https://k72.ca/images/caseStudies/WIDESCAPE/WS---K72.ca---Thumbnail.jpg?w=1280&h=960&s=650a04dfc31ad85bfc64c0ddccc83f1e',
       image2: 'https://k72.ca/images/caseStudies/PJC/Thumbnails/PJC_SiteK72_Thumbnail_1280x960.jpg?w=1280&h=960&s=b5151821a8c0d9603263d7ec827bee9b'
@@ -64,7 +64,7 @@ const Projects = () => {
       <div className='main flex flex-col gap-4 p-4 w-full lg:-mt-12 mt-0 min-h-screen'>
 
 
-        {Projects.map((project, index)=>{
+        {projects.map((project, index)=>{
           return <div key={index} className='hero' >
             <ProjectsCard image1={project.image1} image2={project.image2} />
           </div>
